@@ -1,0 +1,14 @@
+.error .ql-editor{
+    border:1px solid red;
+    color:red
+}
+.errorText{
+    color:red;
+}
+
+.ql-editor{
+    min-height: 350px;;
+}
+p{
+    margin-bottom: 0px !important;
+}

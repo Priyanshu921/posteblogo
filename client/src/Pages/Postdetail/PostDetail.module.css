@@ -1,0 +1,9 @@
+.evenComment{
+    background-color: rgb(237, 244, 249);
+}
+.oddComment{
+    background-color: rgb(163, 163, 163);
+}
+.thumbsUP{
+    font-size: inherit;
+}

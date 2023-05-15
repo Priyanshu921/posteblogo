@@ -1,0 +1,36 @@
+
+.height_full{
+    height:100vh;
+    background-image: url('../../../Assets/Images/background.svg');
+    background-size: cover;
+
+}
+
+.innerContainer{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(255, 255, 255, 0.53);
+}
+
+@media screen and (max-width: 600px) {
+    .innerContainer {
+        width: 85%;
+    }
+
+    .alertBox {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .innerContainer {
+        width: 100%;
+    }
+
+    .alertBox {
+        width: 100%;
+    }
+}

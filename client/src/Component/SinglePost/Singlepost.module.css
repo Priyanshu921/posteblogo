@@ -1,0 +1,6 @@
+.content{
+    max-height: 150px;
+    text-overflow: ellipsis;
+    height: 150px;
+    overflow: hidden;
+}
